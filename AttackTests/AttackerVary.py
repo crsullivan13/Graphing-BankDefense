@@ -40,7 +40,7 @@ plt.ylabel("Slowdown")
 plt.ylim(0,10)
 plt.axhline(y=1, color='black', linestyle='--', linewidth=1)
 
-plt.title("BeagleV Attacker Count Impact")
+plt.title("Boom Attacker Count Impact")
 plt.legend(["Reference Line (y=1)", "Solo BwRead", "1 BkPLLWrite", "2 BkPLLWrite", "3 BkPLLWrite"])
 
 plt.savefig('attackvary_test.png')

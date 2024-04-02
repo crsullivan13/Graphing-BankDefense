@@ -32,7 +32,7 @@ plt.ylabel("Slowdown")
 plt.ylim(0,10)
 plt.axhline(y=1, color='black', linestyle='--', linewidth=1)
 
-plt.title("BeagleV BwRead Slowdown")
+plt.title("Boom BwRead Slowdown")
 plt.legend(["Reference Line (y=1)", "Solo BwRead", "With 3xBkPLLWrite"])
 
 plt.savefig('slowdown_test.png')

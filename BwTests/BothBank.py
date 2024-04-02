@@ -21,7 +21,7 @@ print(y[0])
 plt.plot(x, y, label='Both Bank BW', color='black')
 plt.xlabel('Number of Cores')
 plt.ylabel('Aggregate Bandwidth (MB/s)')
-plt.title('BeagleV Aggregate BW')
+plt.title('Boom Aggregate BW')
 plt.legend()
 
 plt.xticks(x,x)

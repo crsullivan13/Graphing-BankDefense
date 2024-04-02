@@ -40,7 +40,7 @@ plt.ylabel("Slowdown")
 plt.ylim(0,10)
 plt.axhline(y=1, color='black', linestyle='--', linewidth=1, label="_Reference Line (y=1)")
 
-plt.title("BeagleV Bank Isolation -- Read/Write")
+plt.title("Boom Bank Isolation -- Read/Write")
 plt.legend(fontsize='x-small')
 
 plt.grid(True)

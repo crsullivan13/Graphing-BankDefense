@@ -29,7 +29,7 @@ plt.axhline(y=2500, color='black', linestyle='--', linewidth=1, label="Ref Line 
 
 plt.xlabel('WSS(KB)')
 plt.ylabel('Bandwidth(MB/s)')
-plt.title('BeagleV Bankisol (BkPLL victim) BW -- Read')
+plt.title('Boom Bankisol (BkPLL victim) BW -- Read')
 plt.legend()
 
 plt.xticks(x,x)
