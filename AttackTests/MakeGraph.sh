@@ -2,13 +2,16 @@
 
 set -euo pipefail
 
-dir=$1
+#dir=$1
 
 rm -r figs ; mkdir figs
 
-python DiffBanks-slowdown.py $dir
-python DiffBanksW-bw.py $dir
-python DiffBanksR-bw.py $dir
+#python DiffBanksW-bw.py $dir
+#python DiffBanksR-bw.py $dir
+
+gnuplot sepbanks-slowdown-pi4.gp
+gnuplot sepbanks-slowdown-beaglev.gp
+gnuplot slowdown-mempress.gp
 
 mv *.png figs/
-tar -czvf figs.tar.gz figs/
+#tar -czvf figs.tar.gz figs/
