@@ -2,12 +2,9 @@
 
 set -euo pipefail
 
-dir=$1
-
 rm -r figs ; mkdir figs
 
-python BothBank.py $dir
-python SingleBank.py $dir
+gnuplot singlebankbw-agg-bk0-beagle.gp
+gnuplot bothbankbw-agg-beagle.gp
 
 mv *.png figs/
-tar -czvf figs.tar.gz figs/
