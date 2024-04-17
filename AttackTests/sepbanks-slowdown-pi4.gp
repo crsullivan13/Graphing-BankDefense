@@ -5,8 +5,8 @@ set ylabel "Normalized Slowdown"
 set key left top font ",6" Left
 set lmargin at screen 0.1
 
-set terminal pngcairo
-set output 'sepbanks-slowdown-pi4.png'
+set terminal pdf
+set output 'sepbanks-slowdown-pi4.pdf'
 
 set style data histogram
 set style histogram cluster gap 1
