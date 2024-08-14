@@ -1,0 +1,8 @@
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-20--02-39-00-mser-5120/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-20--02-55-51-sift-5120/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-20--03-13-24-stitch-5120/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-20--03-31-36-svm-5120/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-20--03-50-44-tracking-5120/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-20--04-08-07-disparity-5120/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-08--00-13-57-localization-5120/
+

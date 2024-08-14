@@ -1,0 +1,9 @@
+WSS,SoloMissRate,DiffMissRate,SameMissRateRead,SameMissRateWrite
+64,0.01,0.01,0.01,0.01
+128,0,0,0.01,0.01
+192,0,0,0,0
+256,0,0,0,0
+320,0,0.45,0,0
+512,9.18,9.42,5.65,1.06
+
+

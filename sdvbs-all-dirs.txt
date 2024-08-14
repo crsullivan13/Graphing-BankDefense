@@ -1,0 +1,4 @@
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-05--00-30-44-sdvbs-all/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-05--00-42-42-sdvbs-all/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-05--00-54-22-sdvbs-all/
+/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-05--01-06-14-sdvbs-all/
