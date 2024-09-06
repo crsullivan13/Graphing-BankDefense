@@ -1,8 +1,0 @@
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--17-19-38-base-640/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--17-41-40-base-1280/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--17-59-03-base-2560/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--18-14-19-base-5120/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--18-29-17-base-7680/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--18-43-52-base-10240/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--18-57-57-base-12800/
-/home/c749s385/Documents/chipyard/sims/firesim/deploy/results-workload/2024-05-19--19-11-55-base-15360/

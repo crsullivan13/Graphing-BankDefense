@@ -15,11 +15,6 @@ set key top left
 set xrange [0:]
 set yrange [0:7500]
 
-# plot 'outputs/synth-baseline-bw.csv' using 2:xtic(1) title 'All-Bank Regulation',   \
-#      '' using 3 title 'Per-Bank Regulation', \
-#      '' using (column(0)):2:(sprintf("%d", $2)) with labels offset -3,.5 notitle, \
-#      '' using (column(0)):3:(sprintf("%d", $3)) with labels offset 3,.5 notitle
-
 set yrange [0:7]
 set key top right
 set ylabel "Normalized Slowdown"

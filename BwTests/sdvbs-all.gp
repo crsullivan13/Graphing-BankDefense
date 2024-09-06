@@ -12,27 +12,6 @@ set key top left
 set xrange [0:]
 set yrange [0:3]
 
-array files = ['disparity.csv','mser.csv','sift.csv','stitch.csv','tracking.csv','svm.csv','localization.csv']
-array titles = ['Disparity','MSER','SIFT','Stitch','Tracking','SVM','Localization']
-
-getOutput(folder, prefix) = sprintf('outputs/%s/%s', folder, prefix)
-
-# do for [prefix in "sdvbs-single-core sdvbs-multi-core"] {
-#     postfix = (prefix eq "sdvbs-single-core") ? "single" : "multi"
-#     type = (prefix eq "sdvbs-single-core") ? "Solo" : "Corun"
-
-#     do for [i=1:|files|] {
-#         set output sprintf('0%d-%s-%s.pdf', i, postfix, titles[i])
-#         set title sprintf("All-Bank vs. Per-Bank Regulation (%s)", titles[i])
-
-#         plot getOutput(prefix,files[i]) using 2:xtic(1) title 'All-Bank Regulation' lc rgb "#4477AA",   \
-#             '' using 3 title 'Per-Bank Regulation' lc rgb "#228833", \
-#             '' using (column(0)):2:(sprintf("%.2f", $2)) with labels offset -3.2,.5 notitle, \
-#             '' using (column(0)):3:(sprintf("%.2f", $3)) with labels offset 3,.5 notitle
-#     }
-
-# }
-
 set output "real-world-2bk.pdf"
 set xlabel "Workload"
 #set title "All-Bank vs. Per-Bank Regulation (2 Banks)"

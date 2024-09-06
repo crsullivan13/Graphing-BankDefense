@@ -1,7 +1,4 @@
-workload,baseline,perbank
-mser,1.309,1.019
-stitch,1.252,1.00
-gcc,1.453,1.012
-xalanc,2.038,1.026
-mcf,2.204,1.065
+bankcount,baseline,perbank
 disparity,2.333,1.378
+mser,1.309,1.019
+stitch,1.252,.998

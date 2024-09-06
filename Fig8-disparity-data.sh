@@ -21,7 +21,7 @@ dirs=()
 
 while IFS= read -r line; do
     dirs+=("$line")
-done < "$workload-budget-dirs.txt"
+done < "Fig8-disparity-dirs.txt"
 
 victimSlowdowns=("640" "1280" "2560" "5120" "7680"
             "10240" "12800" "15360")

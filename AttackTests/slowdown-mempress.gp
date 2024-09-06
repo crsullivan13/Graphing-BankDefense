@@ -23,7 +23,7 @@ set output 'slowdown-bank-isol.pdf'
 set xlabel ""
 unset xtics
 
-plot 'outputs/slowdown-mempress-baseBRU.csv' using 2:xtic(1) title 'Victim Solo' lc rgb "#4477AA",    \
+plot 'outputs/contention-allbank-slowdown.csv' using 2:xtic(1) title 'Victim Solo' lc rgb "#4477AA",    \
     '' using 3 title 'Attackers on Diff. Bank' lc rgb "#228833", \
     '' using 4 title 'Attackers on Same Bank' lc rgb "#EE6677", \
 
@@ -32,7 +32,7 @@ set output 'slowdown-attackers-regulated.pdf'
 set xlabel ""
 unset xtics
 
-plot 'outputs/slowdown-mempress-baseBRU.csv' using 5:xtic(1) title 'Attackers Regulated All-Bank' lc rgb "#4477AA", \
-    'outputs/slowdown-mempress-bkaware.csv' using 5 title 'Attackers Regulated Per-Bank' lc rgb "#228833", \
+plot 'outputs/contention-allbank-slowdown.csv' using 5:xtic(1) title 'Attackers Regulated All-Bank' lc rgb "#4477AA", \
+    'outputs/contention-perbank-slowdown.csv' using 5 title 'Attackers Regulated Per-Bank' lc rgb "#228833", \
     #'outputs/slowdown-mempress-baseBRU.csv' using 4 title 'Attackers No Regulation' lc rgb "#EE6677", \
 
