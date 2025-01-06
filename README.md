@@ -1,6 +1,44 @@
-## Creating figures
-This process uses gnuplot, ensure you have it before proceeding.
+## Creating Figures
 
-If using pre-collected data. Navigate to either the AttackTests or BwTests directories run the MakeGraph.sh script. The resulting figures will be in a figs subdirectory.
+### Prerequisites
+This process requires **gnuplot**. Ensure it is installed before proceeding.
 
-If using data you have recreated. You will first need to run the corresponding data.sh script based on the figure you want to generate. This assumes you have run the automated workload scripts, or manually ran the workloads in the same order as the scripts. If you have manually run the workloads, ensure that you have placed the results directory path that the simulator outputs in the corresponding dirs.txt file, keeping the order. Once you have successfully run the data.sh script, the results will be in either the AttackTests or BwTests outputs subdirectory. You can then generate the figures as before.
+---
+
+### Generating Figures Using Pre-Collected Data
+
+1. **Navigate to the Appropriate Directory**  
+   - Depending on the type of figure, navigate to either the `AttackTests` or `BwTests` directories.
+   - `AttackTests` contains graphing scripts for figures that plot victim slowdown data.
+   - `BwTests` containts graphing scripts for figures that plot best-effort throughput data.
+
+2. **Run the `MakeGraph.sh` Script**  
+   - Execute the script to generate the figures:  
+     ```bash
+     ./MakeGraph.sh
+     ```
+
+3. **Locate the Generated Figures**  
+   - The resulting figures will be available in the `figs` subdirectory of the graphing directory you are in.
+
+---
+
+### Generating Figures Using Recreated Data
+
+1. **Run the Corresponding `data.sh` Script**  
+   - Based on the figure you want to generate, execute the relevant `data.sh` script. This will copy data from the simulator workload results directory and place it in the correct .csv files.
+     **Note**: This assumes you have either:  
+     - Run the automated workload scripts.  
+     - Manually run the workloads in the same order as the scripts.
+
+2. **Manually Run Workloads? Ensure Proper Setup**  
+   - If you manually ran the workloads, ensure you:  
+     - Place the results directory paths output by the simulator in the corresponding `dirs.txt` file.  
+     - Maintain the same order as the scripts. Look at the default state of the `dirs.txt` files to check the ordering.
+
+3. **Locate the Results**  
+   - Once the `data.sh` script completes successfully, the results will be available in either the `AttackTests` or `BwTests` `outputs` subdirectory.
+
+4. **Generate Figures**  
+   - As with pre-collected data, run the `MakeGraph.sh` script in the appropriate directory to generate the figures.
+
