@@ -34,7 +34,7 @@ This process requires **gnuplot**. Ensure it is installed before proceeding.
 2. **Manually Run Workloads? Ensure Proper Setup**  
    - If you manually ran the workloads, ensure you:  
      - Place the results directory paths output by the simulator in the corresponding `dirs.txt` file.  
-     - Maintain the same order as the scripts. Look at the default state of the `dirs.txt` files to check the ordering.
+     - Maintain the same order as the scripts. Look at the order that the automated workload scripts would be run in to determine the ordering.
 
 3. **Locate the Results**  
    - Once the `data.sh` script completes successfully, the results will be available in either the `AttackTests` or `BwTests` `outputs` subdirectory.
