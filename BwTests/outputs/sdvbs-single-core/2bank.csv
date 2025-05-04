@@ -1,4 +1,7 @@
 bankcount,baseline,perbank
-disparity,2.044,1.865
-mser,1.295,1.107
-stitch,1.248,1.039
+mser,1.27,1.09
+stitch,1.25,1.03
+gcc,1.26,1.02
+xalanc,1.86,1.25
+mcf,1.90,1.25
+dispartiy,1.85,1.73
